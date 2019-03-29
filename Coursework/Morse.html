@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html onload="function reverseMorse();">
+	<head>
+		<script src="Resources/jsScripts.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="Resources/stylesheet.css" type="text/css"/>
+		<title>HomePage</title>
+	</head>
+	<body>
+	
+		<div class = "topNav">
+			<button class"btnHome"><a href="HomePage.html">HomePage</a></button>
+			
+			<div class="dropdown">
+				<button class"btnDrop">Encoding Types</button>
+				<div class="dropdown-content">
+					<a href="ROT13.html">ROT13</a>
+					<a href="4Square.html">Four Square</a>
+					<a href="Morse.html">Morse Code</a>
+				</div>
+			</div>
+		</div>
+		
+		<h1>Morse Code</h1>
+		<br />
+		<p>Just some random text</p>
+		
+		<div id="input_area">
+			<textarea rows="1" cols="50" autofocus id="input">Type your message to encode here.</textarea>
+			<br />
+			<button type = "button" onclick="encodeMorse();" id="btnEncode">Encode</button>
+		</div>
+		
+		<div id="output_area">
+			<p>
+			This is your encoded message: <br />
+			<div id="message"></div>
+			</p>
+			<div id="decrypt_area">
+				<textarea rows="1" cols="50" autofocus id="decode">Type your message to decode here.</textarea>
+				<br />
+				<button type = "button" onclick="decodeMorse();" id="btnDecode">Decode</button>
+			</div>
+		</div>
+		
+		<div id ="sound_area">
+			<button type = "button" onclick="listenMorse();" id="btnListen">Click to listen</button>
+		</div>
+	</body>
+<html>

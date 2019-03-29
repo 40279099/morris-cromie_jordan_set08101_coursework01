@@ -1,0 +1,105 @@
+body{
+	background-color:gray
+}
+
+h1{
+	color:white;
+    font-family: verdana;
+    font-size: 24px;
+    text-align:center;
+	}
+   
+p{
+	color:white;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+input_area{
+	text-align:center;
+}
+
+output_area{
+	text-align:center;
+}
+
+#message{
+	font-size: 10 px;
+	font-family: verdana;
+	color:white;
+}
+
+textarea{
+	border:1px solid #999999;
+	width:50%;
+	margin:5px 0;
+	background-color:gray;
+	color:white;
+}
+
+.button{
+		background-color:gray;
+		color:white;
+}
+
+.topNav{
+	overflow:hidden;
+	background-color:#B4F2F4;
+	font-family:verdana;
+}
+
+/* Navigation bar */
+.topNav button{
+	float:left;
+	font-size:16px;
+	background-color:#B4F2F4;
+	color:black;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+ 
+/* Dropdown Button */
+.btnDrop{
+	background-color:inherit;
+	padding:14px 16px;
+	font-family:verdana;
+	font-size:16px;
+	border:none;
+	outline:none;
+	margin:0;
+}
+
+/* The container needed to position the dropdown content */
+.dropdown{
+	float:left;
+	overflow:hidden;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content{
+	display:none;
+	position:absolute;
+	background-color:#B4F2F4;
+	min-width:160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a{
+	color:black;
+	padding: 12px 16px;
+	text-decoration:none;
+	display:block;
+	font-family:verdana;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover{background-color:#A7E1E3;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content{display:block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .btnDrop{background-color:#A7E1E3;}
